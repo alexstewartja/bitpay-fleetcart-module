@@ -2,7 +2,7 @@
 
 ## About
 
-**BitPay for FleetCart** is an addon for [FleetCart](https://1.envato.market/fleetcart) which allows you to 
+**BitPay for FleetCart** is a module for [FleetCart](https://1.envato.market/fleetcart) which allows you to 
 accept blockchain (cryptocurrency) payments on your FleetCart store, via [BitPay payment gateway](https://bitpay.com/business).
 
 > :warning: A BitPay merchant account is required to use **BitPay for FleetCart**. If you don't already have an account, sign up
