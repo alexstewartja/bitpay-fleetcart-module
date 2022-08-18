@@ -1,0 +1,36 @@
+{
+    "name": "alexstewartja/bitpay-fleetcart-module",
+    "description": "BitPay payment gateway module for FleetCart",
+    "type": "laravel-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Stewart",
+            "email": "iamalexstewart@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "joshbrw/laravel-module-installer": "^v2.0.1",
+        "bitpay/sdk": "~6.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BitpayFleetcart\\": ""
+        }
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "@php artisan module:publish-config BitPay",
+            "@php artisan module:migrate BitPay",
+            "@php artisan module:seed BitPay",
+            "@php artisan module:enable BitPay"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

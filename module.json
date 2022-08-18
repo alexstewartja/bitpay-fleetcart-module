@@ -1,0 +1,11 @@
+{
+    "name": "BitPay",
+    "alias": "bitpay",
+    "description": "BitPay payment gateway module for FleetCart",
+    "priority": 100,
+    "providers": [
+        "Modules\\BitpayFleetcart\\Providers\\BitPayServiceProvider",
+        "Modules\\BitpayFleetcart\\Providers\\EventServiceProvider",
+        "Modules\\BitpayFleetcart\\Providers\\RouteServiceProvider"
+    ]
+}
