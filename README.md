@@ -1,5 +1,7 @@
 # BitPay for FleetCart
 
+![BitPay for FleetCart](https://i.ibb.co/9Y3KTrm/bitpay-fleetcart-module.png)
+
 ## About
 
 **BitPay for FleetCart** is a module for [FleetCart](https://1.envato.market/fleetcart) which allows you to 
